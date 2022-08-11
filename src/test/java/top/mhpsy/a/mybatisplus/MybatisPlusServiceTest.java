@@ -36,6 +36,10 @@ public class MybatisPlusServiceTest {
 
     }
 
-
+    @Test
+    public void TestDel(){
+        boolean b = userService.removeById(1L);
+        System.out.println("b = " + b);
+    }
 
 }

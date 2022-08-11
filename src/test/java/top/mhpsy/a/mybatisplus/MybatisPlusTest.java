@@ -23,7 +23,7 @@ public class MybatisPlusTest {
 
     @Test
     public void TestInsert(){
-        userMapper.insert(new User(null,"xx",18,"qwer@QQ.com"));
+        userMapper.insert(new User(null,"xx",18,"qwer@QQ.com",null));
 //        如果id是null的话那么就是会得到这个(雪花算法)
 //        <==        Row: -2045439999, xx, 18, qwer@QQ.com
     }
